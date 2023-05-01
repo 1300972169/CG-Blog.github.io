@@ -123,8 +123,8 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository:  # 这里写上你的Github地址
+    type: git
+    repo: git@github.com:1300972169/CG-Blog.github.io.git
     branch: main
   # - type: baidu_url_submitter
   # - type: git
