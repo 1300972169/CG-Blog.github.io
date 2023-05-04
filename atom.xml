@@ -6,7 +6,7 @@
   <link href="https://cg-blog.com.cn/atom.xml" rel="self"/>
   
   <link href="https://cg-blog.com.cn/"/>
-  <updated>2023-05-04T16:22:27.103Z</updated>
+  <updated>2023-05-04T16:40:16.615Z</updated>
   <id>https://cg-blog.com.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://cg-blog.com.cn/posts/0.html"/>
     <id>https://cg-blog.com.cn/posts/0.html</id>
     <published>2023-04-30T16:00:00.000Z</published>
-    <updated>2023-05-04T16:22:27.103Z</updated>
+    <updated>2023-05-04T16:40:16.615Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: Blog建设指南<br>tags:</p><ul><li>Markdown</li><li>外挂标签<br>categories:</li><li>演示<br>mathjax: true<br>date: 2023-05-01 21:54:28<br>description:<br>—经过2个多月的努力，我的Blog小站终于建设成功了；<br>date: 2023-05-01 18:19:03<br>updated: 2023-05-01 22:00:00</li><li>本博客基于Hexo+Butterfly+GithubPage开发，目前本地服务器部署在阿里云服务器，配套使用阿里云域名解析以及CDN网络加速，旨在记录我的程序猿进阶之路的各种坑</li></ul>]]></content>
+    <content type="html"><![CDATA[<hr><p>title: Blog建设指南<br>tags:</p><ul><li>Markdown</li><li>外挂标签<br>categories:</li><li>演示<br>mathjax: true<br>date: 2023-05-01 21:54:28<br>description:<br>—经过2个多月的努力，我的Blog小站终于建设成功了；<br>date: 2023-05-01 18:19:03<br>updated: 2023-05-01 22:00:00<br>本博客基于Hexo+Butterfly+GithubPage开发，目前本地服务器部署在阿里云服务器，配套使用阿里云域名解析以及CDN网络加速，旨在记录我的程序猿进阶之路的各种坑</li></ul><h1>Hexo</h1><h2 id="安装node-js">安装node.js</h2><h1>Butterfly</h1><h1>Github Pages</h1><h1>域名解析</h1><h1>CDN网络加速</h1><h1>图床加载</h1>]]></content>
     
     
       
