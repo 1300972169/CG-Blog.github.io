@@ -6,7 +6,7 @@
   <link href="https://cg-blog.com.cn/atom.xml" rel="self"/>
   
   <link href="https://cg-blog.com.cn/"/>
-  <updated>2023-05-05T01:49:24.214Z</updated>
+  <updated>2023-05-05T02:03:42.652Z</updated>
   <id>https://cg-blog.com.cn/</id>
   
   <author>
@@ -17,30 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://cg-blog.com.cn/posts/0.html"/>
-    <id>https://cg-blog.com.cn/posts/0.html</id>
-    <published>2023-04-30T16:00:00.000Z</published>
-    <updated>2023-05-05T01:49:24.214Z</updated>
+    <title>Blog建设指南</title>
+    <link href="https://cg-blog.com.cn/posts/1ba63e49.html"/>
+    <id>https://cg-blog.com.cn/posts/1ba63e49.html</id>
+    <published>2023-05-01T10:19:03.000Z</published>
+    <updated>2023-05-05T02:03:42.652Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title: Blog建设指南<br>tags:</p><p>-linux</p><p>categories:</p><p>-linux踩坑日记</p><ul><li>date: 2023-05-01 21:54:28<br>description:<br>—经过2个多月的努力，我的Blog小站终于建设成功了；<br>date: 2023-05-01 18:19:03<br>updated: 2023-05-01 22:00:00<br>本博客基于Hexo+Butterfly+GithubPage开发，目前本地服务器部署在阿里云服务器，配套使用阿里云域名解析以及CDN网络加速，旨在记录我的程序猿进阶之路的各种坑</li></ul><h1>Hexo</h1><h2 id="安装node-js">安装node.js</h2><h1>Butterfly</h1><h1>Github Pages</h1><h1>域名解析</h1><h1>CDN网络加速</h1><h1>图床加载</h1>]]></content>
+    <content type="html"><![CDATA[<h1>Hexo</h1><h2 id="安装node-js">安装node.js</h2><h1>Butterfly</h1><h1>Github Pages</h1><h1>域名解析</h1><h1>CDN网络加速</h1><h1>图床加载</h1>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;title: Blog建设指南&lt;br&gt;
-tags:&lt;/p&gt;
-&lt;p&gt;-linux&lt;/p&gt;
-&lt;p&gt;categories:&lt;/p&gt;
-&lt;p&gt;-linux踩坑日记&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;date: 2023-05-01 21:54:28&lt;br&gt;
-description:</summary>
-      
+    <summary type="html">---经过2个多月的努力，我的Blog小站终于建设成功了；</summary>
     
     
     
+    <category term="Blog踩坑日志" scheme="https://cg-blog.com.cn/categories/Blog%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="linux" scheme="https://cg-blog.com.cn/tags/linux/"/>
     
   </entry>
   
