@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cg-blog.com.cn/posts/2013454d.html</loc>
+    
+    <lastmod>2023-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/posts/2013454d.html</loc>
+    
+    <lastmod>2023-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/categories/index-1.html</loc>
+    
+    <lastmod>2023-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/tags/index.html</loc>
+    
+    <lastmod>2023-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cg-blog.com.cn/tags/index-2.html</loc>
     
     <lastmod>2023-05-05</lastmod>
@@ -30,33 +66,6 @@
   
   <url>
     <loc>https://cg-blog.com.cn/categories/index.html</loc>
-    
-    <lastmod>2023-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cg-blog.com.cn/posts/1ba63e49.html</loc>
-    
-    <lastmod>2023-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cg-blog.com.cn/tags/index.html</loc>
-    
-    <lastmod>2023-05-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cg-blog.com.cn/categories/index-1.html</loc>
     
     <lastmod>2023-05-05</lastmod>
     
@@ -206,10 +215,59 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://cg-blog.com.cn/tags/Blog/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/tags/C/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/tags/Markdown/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://cg-blog.com.cn/categories/Blog%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/categories/Blog%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/linux%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2023-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cg-blog.com.cn/categories/Blog%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/linux%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/C-%E8%B8%A9%E5%9D%91%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2023-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
