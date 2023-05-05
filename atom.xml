@@ -18,8 +18,8 @@
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
-    <link href="https://cg-blog.com.cn/posts/2013454d.html"/>
-    <id>https://cg-blog.com.cn/posts/2013454d.html</id>
+    <link href="https://cg-blog.com.cn/posts/Markdown%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97.html"/>
+    <id>https://cg-blog.com.cn/posts/Markdown%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97.html</id>
     <published>2023-05-05T02:16:26.000Z</published>
     <updated>2023-05-05T02:16:26.000Z</updated>
     
@@ -41,10 +41,10 @@
   
   <entry>
     <title>Blog建设指南</title>
-    <link href="https://cg-blog.com.cn/posts/2013454d.html"/>
-    <id>https://cg-blog.com.cn/posts/2013454d.html</id>
+    <link href="https://cg-blog.com.cn/posts/Blog%E5%BB%BA%E8%AE%BE%E6%8C%87%E5%8D%97.html"/>
+    <id>https://cg-blog.com.cn/posts/Blog%E5%BB%BA%E8%AE%BE%E6%8C%87%E5%8D%97.html</id>
     <published>2023-05-01T10:19:03.000Z</published>
-    <updated>2023-05-05T02:20:00.809Z</updated>
+    <updated>2023-05-05T02:25:29.651Z</updated>
     
     <content type="html"><![CDATA[<h1>Hexo</h1><h2 id="安装node-js">安装node.js</h2><h1>Butterfly</h1><h1>Github Pages</h1><h1>域名解析</h1><h1>CDN网络加速</h1><h1>图床加载</h1>]]></content>
     
