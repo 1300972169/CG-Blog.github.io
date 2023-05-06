@@ -18,16 +18,16 @@ updated: >-
   本博客基于Hexo+Butterfly+GithubPage开发，目前本地服务器部署在阿里云服务器，配套使用阿里云域名解析以及CDN网络加速，旨在记录我的程序猿进阶之路的各种坑
 date: 2023-05-01 18:19:03
 ---
-# Hexo
+# 1 Hexo
 
-## 安装node.js
+## 1.1 安装node.js
 
-# Butterfly
+# 2 Butterfly
 
-# Github Pages
+# 3 Github Pages
 
-# 域名解析
+# 4 域名解析
 
-# CDN网络加速
+# 5 CDN网络加速
 
-# 图床加载
+# 6 图床加载
