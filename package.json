@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
+    "github-calendar": "^2.3.2",
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
     "hexo": "^6.2.0",
@@ -36,6 +37,7 @@
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-githubcalendar": "^1.2.3",
     "hexo-magnet-fomal": "^1.0.0",
     "hexo-pdf": "^1.1.1",
     "hexo-renderer-ejs": "^2.0.0",
