@@ -242,7 +242,7 @@ gitcalendar:
   #   index: 0
   # simplemode: true
   user:  1300972169
-  apiurl: 'https://api.cg-blog.com.cn/api'
+  apiurl: 'https://gitcalendar.fomal.cc'
   minheight:
     pc: 320px #桌面端最小高度
     mibile: 0px #移动端最小高度
