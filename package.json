@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@upupming/hexo-renderer-markdown-it-plus": "^2.0.2",
-    "github-calendar": "^2.3.2",
+    "cnpm": "^9.2.0",
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
     "hexo": "^6.2.0",
@@ -50,6 +50,7 @@
     "hexo-tag-map": "^1.2.0",
     "hexo-theme-volantis": "^5.7.1",
     "hexo-wordcount-fomal": "^1.0.0",
+    "install": "^0.13.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-emoji": "^2.0.2",
