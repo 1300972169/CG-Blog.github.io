@@ -20,7 +20,20 @@ date: 2023-05-01 18:19:03
 ---
 # 1 Hexo
 
+Hexo是一个快速、简洁且高效的博客框架。
+首先新建文件夹Blog（名字随意，位置随意）用于存放Hexo本地服务器源码
+
 ## 1.1 安装node.js
+
+下载地址：[下载 | Node.js 中文网 (nodejs.cn)](https://nodejs.cn/download/)，直接下载最新版本 No Problem
+![下载node.js](/assets/image/nodejs-download.png)
+
+检查是否安装成功
+
+```shell
+npm -v #输出版本号则安装成功
+9.6.4
+```
 
 # 2 Butterfly
 

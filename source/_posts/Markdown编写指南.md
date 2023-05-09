@@ -252,7 +252,7 @@ git push
 本地图片:
 <img src="/assets/pusheencode.webp" alt="示例图片" style="zoom:50%;" />
 在线图片:
-![code](https://cdn.jsdelivr.net/gh/fomalhaut1998/markdown_pic/img/code.png)
+
 <!-- endtab -->
 
 {% endtabs %}
