@@ -6,7 +6,7 @@ tags:
 categories:
   - Blog踩坑日志
 mathjax: true
-abbrlink: Blog建设指南
+abbrlink: Hexo Blog 编写
 date: 2023-05-25 15:10:16
 sticky: 2
 swiper_index: 2
