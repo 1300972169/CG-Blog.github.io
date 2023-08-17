@@ -1,11 +1,15 @@
 ---
 title: NLP--TextCNN
 tags:
-  - null
+  - NLP
+  - 自然语言处理
+  - 语言模型
 categories:
-  - null
+  - NLP
 mathjax: true
-abbrlink: f9124f9f
+abbrlink: TextCNN
+sticky: 3
+swiper_index: 3
 date: 2023-08-17 17:55:05
 description:
 ---
