@@ -32,11 +32,11 @@ GCN网络模型图如图所示：
 
 GCN的核心部分为：
 
-&emsp;&emsp;假设我们手头有一批图数据，其中有N个节点（node），每个节点都有自己的特征，我们设这些节点的特征组成一个N×D维的矩阵X，然后各个节点之间的关系也会形成一个N×N维的矩阵A，也称为邻接矩阵（adjacency matrix）。X和A便是我们模型的输入。
+&emsp;&emsp;假设我们手头有一批图数据，其中有N个节点（node），每个节点都有自己的特征，我们设这些节点的特征组成一个N×D维的矩阵X，然后各个节点之间的关系也会形成一个N×N维的矩阵A，也称为邻接矩阵（adjacency matrix）,X为特征矩阵。X和A便是我们模型的输入。
 
-GCN也是一个神经网络层，它的层与层之间的传播方式是：
+GCN也是一个神经网络层，它的层与层之间的传播方式是(聚合特征公式)：
 
-<font size = 5>$H^{(h+1)}=\sigma(\widetilde{D}^{-\frac{1}{2}}\widetilde{A}\widetilde{D}^{-\frac{1}{2}}H^{(l)W^{(l)}})$</font>
+<font size = 5>$H^{(h+1)}=\sigma(\widetilde{D}^{-\frac{1}{2}}\widetilde{A}\widetilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)})$</font>
 
 这个公式中：
 
@@ -47,6 +47,13 @@ GCN也是一个神经网络层，它的层与层之间的传播方式是：
 &emsp;&emsp;H是每一层的特征，对于输入层的话，H就是X
 
 &emsp;&emsp;σ是非线性激活函数
+
+GNN 输入节点属性和邻接矩阵，输出隐藏节点表示，如  **$H = GNN(X, A) ∈ Rn×d$**
+
+默认情况下，我们在节点分类任务中采用交叉熵损失函数，以最小化节点标签 Y 与获得的表示之间的差异，即 
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**$L(H,Y)=-\sum_i{Y_i logsoftmax(H_i)}$**
+
 
 pytorch 已经封装好GCN卷积函数-->GCNConv,示例代码，假设就只是两层网络结构 
 ``` python
@@ -67,4 +74,6 @@ class Net(torch.nn.Module):
         x = F.relu(x)
         x = self.conv2(x, edge_index)
         return F.log_softmax(x, dim=1)
+
+
 
