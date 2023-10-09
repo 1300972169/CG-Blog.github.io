@@ -27,7 +27,21 @@ date: 2023-09-23 11:32:32
 ## 1.3 关系抽取
 &emsp;&emsp;关系抽取经典的方法是基于依赖树的方法挖掘语义信息，关系抽取从抽取类型来看，可以分为基于句子级别的关系抽取和基于文档级别的关系抽取
 
-# 二.GCN(图卷积神经网络)
+
+# 二.GNN(图神经网络)
+GNN 输入节点属性和邻接矩阵，输出隐藏节点表示，如  **$H = GNN(X, A) ∈ Rn×d$**
+
+默认情况下，我们在节点分类任务中采用交叉熵损失函数，以最小化节点标签 Y 与获得的表示之间的差异，即 
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**$L(H,Y)=-\sum_i{Y_i logsoftmax(H_i)}$**
+
+## 2.1 GNN消息传递
+### 2.1.1 聚合机制
+<!-- https://blog.csdn.net/qq_25601345/article/details/112135810 -->
+
+
+# 三.GCN(图卷积神经网络)
+## 3.1 理论研究
 GCN网络模型图如图所示：
 ![GCN模型图](../assets/image/Note-for-GNN-Knowledge-Grape/GCN-Model.webp)
 
@@ -49,11 +63,9 @@ GCN也是一个神经网络层，它的层与层之间的传播方式是(聚合�
 
 &emsp;&emsp;σ是非线性激活函数
 
-GNN 输入节点属性和邻接矩阵，输出隐藏节点表示，如  **$H = GNN(X, A) ∈ Rn×d$**
-
-默认情况下，我们在节点分类任务中采用交叉熵损失函数，以最小化节点标签 Y 与获得的表示之间的差异，即 
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**$L(H,Y)=-\sum_i{Y_i logsoftmax(H_i)}$**
+## 3.2 存在问题
+###3.2.1 问题一：过渡平滑
+<!-- https://www.zhihu.com/question/346942899 -->
 
 
 pytorch 已经封装好GCN卷积函数-->GCNConv,示例代码，假设就只是两层网络结构 
