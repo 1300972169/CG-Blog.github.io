@@ -12,6 +12,7 @@ description: 阅读GNN和知识图谱相关综述和论文相关笔记记录
 abbrlink: Note for GNN&Knowledge Grape
 date: 2023-09-23 11:32:32
 ---
+
 # 一.知识图谱
 <font color=blue>论文来源：doi: 10.3778/j.issn.1673-9418.2302059</font>
 ## 1.1 信息抽取

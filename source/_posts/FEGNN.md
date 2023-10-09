@@ -11,7 +11,8 @@ date: 2023-10-08 11:09:24
 abbrlink: FEGNN
 description: GNN图神经网络在特征扩展上的论文研究
 ---
-<font size=6 >**Feature Expansion for Graph Neural Networks**</font>
+
+**<font size=6 >Feature Expansion for Graph Neural Networks</font>**
 论文源地址：[Feature Expansion for Graph Neural Networks](https://arxiv.org/abs/2305.06142)
 
 # 摘要
@@ -44,9 +45,9 @@ description: GNN图神经网络在特征扩展上的论文研究
  # GNN
  针对GNN的相关描述见：[Note for GNN&Knowledge Grape](https://www.cg-blog.com.cn/posts//Note%20for%20GNN&Knowledge%20Grape.html)
 
- GCN原本的特征公式为：<font size = 5>$H^{(h+1)}=\sigma(\widetilde{D}^{-\frac{1}{2}}\widetilde{A}\widetilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)})$</font>
+ GCN原本的特征公式为:<font size = 5> $H^{(h+1)}=\sigma(\widetilde{D}^{-\frac{1}{2}}\widetilde{A}\widetilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)})$ </font>
 
- 现在用线性近似代替激活函数得到：<font size =5> $H^{(K)}=\widetilde{A}^K X {\textstyle \prod_{i=0}^{K-1}}W^{(i)} $</font>
+ 现在用线性近似代替激活函数得到:$H^{(K)}=\widetilde{A}^K X {\textstyle \prod_{i=0}^{K-1}}W^{(i)}$
  注：$H^{(0)}=X$
 
  # 提出问题&&解决方法
