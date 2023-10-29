@@ -61,7 +61,7 @@ $ \sigma $ ：激活函数。
 **解决方法:**
 &emsp;&emsp;引入节点的度矩阵的概念，通过节点的度矩阵反映节点之间的相关性，这就是GCN(图卷积神经网络)
 
-<!-- https://blog.csdn.net/qq_25601345/article/details/112135810 -->
+<!-- (https://blog.csdn.net/qq_25601345/article/details/112135810) -->
 
 
 # 三.GCN(图卷积神经网络)
