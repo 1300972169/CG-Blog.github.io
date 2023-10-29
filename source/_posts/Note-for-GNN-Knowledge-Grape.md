@@ -42,7 +42,7 @@ GNN对属性向量优化的方法叫做消息传递机制，原理是基于节�
 &emsp;&emsp;将邻居节点的特征进行加权求和，在加上自身特征，乘以原始参数，经过激活函数，就得到了新的节点特征。
 示例：
 
-<!-- https://blog.csdn.net/qq_25601345/article/details/112135810 -->
+<!-- (https://blog.csdn.net/qq_25601345/article/details/112135810) -->
 
 
 # 三.GCN(图卷积神经网络)
