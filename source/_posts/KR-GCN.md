@@ -11,5 +11,6 @@ categories:
 mathjax: true
 date: 2023-10-29 10:49:51
 abbrlink : KR-GCN
+hidden: true 
 description: Knowledge-Aware Reasoning with Graph Convolution Network for Explainable Recommendation
 ---

@@ -11,6 +11,7 @@ date: 2023-05-25 15:10:16
 sticky: 2
 swiper_index: 2
 updated: >-
+hidden: true
 description: 
     本文章旨在记录如何使用Hexo编写博客记录生活
 ---
