@@ -32,3 +32,6 @@ description: Knowledge Graph Self-Supervised Rationalization for Recommendation
 &emsp;&emsp;③ 为了验证模型 KGRec 的有效性，在三个真实的数据集上进行了广泛的实验。
 # 二、模型方法
 ![KGRec模型图](../assets/image/KGRec/KGRec-Model.jpg)
+## 2.1 知识图谱的基本发现(Rationale Discovery for KG)
+&emsp;&emsp;为了从复杂的知识图谱中自动提炼出推荐所需的基本语义，作者提出了一种加权函数，用于学习知识三元组成为协作互动基本原理的概率。该加权函数基于可学习的图注意机制对每个知识三元组进行加权。
+$ f(h, r, t)=\frac{e_hW^Q\cdot(e_tW^K \odot e_r)^T}{\sqrt{d}}$
