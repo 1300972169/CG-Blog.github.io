@@ -35,3 +35,5 @@ description: Knowledge Graph Self-Supervised Rationalization for Recommendation
 ## 2.1 知识图谱的基本发现(Rationale Discovery for KG)
 &emsp;&emsp;为了从复杂的知识图谱中自动提炼出推荐所需的基本语义，作者提出了一种加权函数，用于学习知识三元组成为协作互动基本原理的概率。该加权函数基于可学习的图注意机制对每个知识三元组进行加权。
 $ f(h, r, t)=\frac{e_hW^Q\cdot(e_tW^K \odot e_r)^T}{\sqrt{d}}$
+&emsp;&emsp;知识三元组的合理性得分 $f(h, r, t)$ 表示其在帮助用户偏好方面的重要性，这是由模型学习并由推荐任务中的标签所引导的。为确保同一头部实体的邻居之间的合理性得分具有可比性，我们使用以下 $softmax$ 函数按邻居数量 $N_h$ 对得分进行归一化处理：
+## 2.2 知识感知屏蔽自动编码器(Knowledge-aware Masked Autoencoder)
