@@ -37,6 +37,7 @@
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-hide-posts": "^0.4.0",
     "hexo-magnet-fomal": "^1.0.0",
     "hexo-pdf": "^1.1.1",
     "hexo-renderer-ejs": "^2.0.0",
@@ -55,6 +56,7 @@
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-emoji": "^2.0.2",
     "markdown-it-mark": "^3.0.1",
+    "princexml": "^1.4.9",
     "save": "^2.5.0",
     "vanilla-lazyload": "^17.8.3",
     "workbox-build": "^6.5.4"
