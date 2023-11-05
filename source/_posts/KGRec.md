@@ -16,6 +16,7 @@ description: Knowledge Graph Self-Supervised Rationalization for Recommendation
 # 一、简介
 &emsp;&emsp;知识图谱(Knowledge Graphs, KGs)被广泛用于推荐系统来提升模型对于冷启动商品的表现。然而通过分析已有模型,作者发现在大量的知识图谱关系中,仅有一小部分在预测推荐列表时起到了重要作用,即知识三元组的重要性构成了典型的长尾分布。因此,本文提出了KGRec模型,从协同过滤信号中学习知识图谱中重要的知识结构(rationales),并且统一生成式(generative)和对比式(contrastive)的自监督学习来促进rationales的产生、显试地强调这些rationales,并且抑制噪声知识,以进一步提升推荐模型性能
 论文出处: https://doi.org/10.1145/3580305.3599400
+源址:https://cg-blog.com.cn/posts/KGRec.html
 ## 1.1 研究背景
 &emsp;&emsp;协同过滤在广泛的应用中非常有效,并推动了推荐系统领域的重大进展。近年来,随着神经网络和用户与项目的潜在嵌入的引入,协同过滤(CF)框架得到了显著的改进,从而有效地增强了传统的矩阵因式分解方法。此外,整合了变异自动编码器、注意力机制和图神经网络的新型模型也进一步提高了CF的性能。
 &emsp;&emsp;研究者们对于知识图谱增强的推荐推荐系统的探索始于基于embedding的方法和基于路径的方法。具体而言,一些研究(CKE,KTUP)将基于Transition建模的知识图谱embedding(例如TransR和TransE)融入商品embedding中,以丰富用户和商品的建模。另一些研究专注于从知识图谱中提取具有丰富语义的元路径,并沿着这些元路径对用户和商品进行基于路径的建模。为了汲取这两种方法的优点,统一基于embedding和基于路径的方法,最近的研究采用了强大的图神经网络(GNNs),通过在知识图谱上进行传播和聚合来捕获多跳高阶信息。这些最先进的基线模型包括(KGAT, KGIN [1])。
