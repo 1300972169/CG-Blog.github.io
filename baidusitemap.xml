@@ -1,35 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://cg-blog.com.cn/posts/KECR.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/KGRec.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/Note%20for%20GNN&Knowledge%20Grape.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/TextCNN.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/Note%20for%20Recommendation.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/Blog%E5%BB%BA%E8%AE%BE%E6%8C%87%E5%8D%97.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/FEGNN.html</loc>
-    <lastmod>2023-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://cg-blog.com.cn/posts/Markdown%E7%BC%96%E5%86%99%E6%8C%87%E5%8D%97.html</loc>
-    <lastmod>2023-05-05</lastmod>
-  </url>
 </urlset> 
