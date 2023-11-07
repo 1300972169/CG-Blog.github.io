@@ -45,3 +45,12 @@ abbrlink: Note for Recommendation
 ## 2.3 基于传播的方法(联合方法)
 &emsp;&emsp;基于 embedding 的方法利用 KG 中 user/item 的语义表示进行推荐，而基于路径的方法使用语义连通信息，而且这两种方法只利用 KG 中一个方面的信息。
 &emsp;&emsp;为了更好地利用KG中的信息，提出了将实体和关系的语义表示与路径连通信息相结合的统一方法，统一的方法是基于 Embedding 传播的思想。这些方法以 KG 中的路径连通性为指导精炼了实体表示(user/item)。
+
+# 3 对话推荐系统
+## 3.2 研究点
+&emsp;&emsp;(1)
+&emsp;&emsp;(2)
+&emsp;&emsp;(3)
+&emsp;&emsp;(4)
+## 3.1 研究方向
+
