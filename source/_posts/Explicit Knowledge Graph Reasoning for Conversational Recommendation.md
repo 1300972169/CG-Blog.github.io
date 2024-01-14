@@ -15,7 +15,7 @@ abbrlink: KECR
 date: 2023-11-05 19:47:57
 ---
 
-# **Explicit Knowledge Graph Reasoning for Conversational Recommendation**
+# **Conversational Recommendation Knowledge of Graph Reasoning**
 
 # 一、 摘要
 ## 1.1 研究背景
